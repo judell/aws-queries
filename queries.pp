@@ -32,6 +32,6 @@ query "s3_buckets_by_region" {
     group by
       region
     order by
-      region
+      count
   EOQ
 }
